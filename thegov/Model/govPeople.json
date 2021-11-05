@@ -1,0 +1,98 @@
+[
+    {
+        "pos": "President",
+        "id": 1001,
+        "briefDesc": "Highest elected official",
+        "longDesc": "The president of the United States (POTUS) is the head of state and head of government of the United States of America. The president directs the executive branch of the federal government and is the commander-in-chief of the United States Armed Forces. The power of the presidency has grown substantially since its formation, as has the power of the federal government as a whole. While presidential power has ebbed and flowed over time, the presidency has played an increasingly strong role in American political life since the beginning of the 20th century, with a notable expansion during the presidency of Franklin D. Roosevelt. In contemporary times, the president is also looked upon as one of the world's most powerful political figures as the leader of the only remaining global superpower. As the leader of the nation with the largest economy by nominal GDP, the president possesses significant domestic and international hard and soft power.",
+        "branch": "Executive",
+        "lineOfSuccession": "n/a"
+    },
+    {
+        "pos": "Vice President",
+        "id": 1002,
+        "briefDesc": "Second-highest elected official",
+        "longDesc":"The vice president of the United States (VPOTUS) is the second-highest officer in the executive branch of the U.S. federal government, after the president of the United States, and ranks first in the presidential line of succession. The vice president is also an officer in the legislative branch, as the president of the Senate. In this capacity, the vice president is empowered to preside over Senate deliberations at any time, but may not vote except to cast a tie-breaking vote. The vice president is indirectly elected together with the president to a four-year term of office by the people of the United States through the Electoral College.",
+        "branch": "Executive",
+        "lineOfSuccession": "1"
+    },
+    {
+        "pos": "Secretary of State",
+        "id": 1003,
+        "briefDesc": "Top diplomat",
+        "longDesc":"The United States secretary of state implements foreign policy for the U.S. government as the head of the U.S. Department of State. The office holder is one of the highest ranking members of the president's Cabinet, and ranks the first in the U.S. presidential line of succession among Cabinet secretaries. Created in 1789 with Thomas Jefferson as the first office holder, the secretary of state represents the US to foreign countries, and is therefore considered analogous to a foreign minister in other countries.",
+        "branch": "Executive",
+        "lineOfSuccession": "4"
+    },
+    {
+        "pos": "Secretary of the Treasury",
+        "id": 1004,
+        "briefDesc": "Top economic official",
+        "longDesc": "The United States secretary of the treasury is the head of the United States Department of the Treasury, which is concerned with all financial and monetary matters relating to the federal government, and, until 2003, also included several major federal law enforcement agencies. The secretary of the treasury is the principal economic advisor to the president of the United States and plays a critical role in policy-making by bringing an economic and government financial policy perspective to issues facing the federal government. The secretary of the treasury is a member of the United States Cabinet, and is nominated by the president of the United States.",
+        "branch": "Executive",
+        "lineOfSuccession": "5"
+    },
+    {
+        "pos": "Secretary of Defense",
+        "id": 1005,
+        "briefDesc": "Top military official",
+        "longDesc": "The United States secretary of defense (SecDef) is the leader and chief executive officer of the United States Department of Defense, the executive department of the U.S. Armed Forces. The secretary of defense's position of command and authority over the military is second only to that of the president of the United States, who is the commander-in-chief. This position corresponds to what is generally known as a defense minister in many other countries. The secretary of defense is appointed by the president with the advice and consent of the Senate, and is by custom a member of the Cabinet and by law a member of the National Security Council.",
+        "branch": "Executive",
+        "lineOfSuccession": "6"
+    },
+    {
+        "pos": "Attorney General",
+        "id": 1006,
+        "briefDesc": "Top lawyer",
+        "longDesc": "The United States attorney general (AG) leads the United States Department of Justice, and is the chief lawyer of the federal government of the United States. The attorney general serves as the principal advisor to the president of the United States on all legal matters. The attorney general is a statutory member of the Cabinet of the United States. The United States Department of Justice (DOJ), also known as the Justice Department, is a federal executive department of the United States government tasked with the enforcement of federal law and administration of justice in the United States. It is equivalent to the justice or interior ministries of other countries. The primary actions of the DOJ are investigating instances of white collar crime, representing the U.S. government in legal matters (such as in cases before the Supreme Court), and running the federal prison system.",
+        "branch": "Executive",
+        "lineOfSuccession": "7"
+    },
+    {
+        "pos": "Speaker of the House",
+        "id": 1007,
+        "briefDesc": "Legislative presiding officer",
+        "longDesc": "The speaker of the United States House of Representatives, commonly known as the speaker of the House, is the presiding officer of the United States House of Representatives. The office was established in 1789 by Article I, Section 2 of the U.S. Constitution. The speaker is the political and parliamentary leader of the House of Representatives and is simultaneously the House's presiding officer, de facto leader of the body's majority party, and the institution's administrative head. Speakers also perform various other administrative and procedural functions. Given these several roles and responsibilities, the speaker usually does not personally preside over debates. That duty is instead delegated to members of the House from the majority party. Neither does the speaker regularly participate in floor debates.",
+        "branch": "Legislative",
+        "lineOfSuccession": "2"
+    },
+    {
+        "pos": "Senate President pro tempore",
+        "id": 1008,
+        "briefDesc": "Legislative presiding officer",
+        "longDesc": "The president pro tempore of the United States Senate (often shortened to president pro tem) is the second-highest-ranking official of the United States Senate. Article One, Section Three of the United States Constitution provides that the vice president of the United States is the president of the Senate (despite not being a senator), and mandates that the Senate must choose a president pro tempore to act in the vice president's absence. Unlike the vice president, the president pro tempore is an elected member of the Senate, able to speak or vote on any issue. Selected by the Senate at large, usually by a resolution which is adopted by unanimous consent without a formal vote, the president pro tempore has enjoyed many privileges and some limited powers. During the vice president's absence, the president pro tempore is empowered to preside over Senate sessions.",
+        "branch": "Legislative",
+        "lineOfSuccession": "3"
+    },
+    {
+        "pos": "U.S. Representative",
+        "id": 1009,
+        "briefDesc": "Elected legislator",
+        "longDesc": "A U.S. representative is a person elected by people from a congressional district that has voting power in the U.S. House of Representatives. Each district is drawn based on population, and each representative roughly represents an equal number of people in the House. The House of Representatives is the lower house of the bicameral United States Congress. The House is charged with the passage of federal legislation, known as bills, which, after concurrence by the Senate, are sent to the president for consideration. The House also has exclusive powers: it initiates all revenue bills, impeaches federal officers, and elects the president if no candidate receives a majority of votes in the Electoral College. The House meets in the south wing of the United States Capitol.",
+        "branch": "Legislative",
+        "lineOfSuccession": "n/a"
+    },
+    {
+        "pos": "U.S. Senator",
+        "id": 1010,
+        "briefDesc": "Elected legislator",
+        "longDesc": "A U.S. Senator is a person elected by people from one of the fifty U.S. states. Representation in the Senate is not dependent on population, and instead is determined by state boundaries. The Senate is the upper house of the bicameral United States Congress. As the upper chamber of Congress, the Senate has several powers of advice and consent which are unique to it. These include the approval of treaties, and the confirmation of Cabinet secretaries, federal judges (including Federal Supreme Court justices) flag officers, regulatory officials, ambassadors, other federal executive officials and federal uniformed officers. If no candidate receives a majority of electors for vice president, the duty falls to the Senate to elect one of the top two recipients of electors for that office. The Senate conducts trials of those impeached by the House.",
+        "branch": "Legislative",
+        "lineOfSuccession": "n/a"
+    },
+    {
+        "pos": "Chief Justice",
+        "id": 1011,
+        "briefDesc": "Highest-ranking federal judge",
+        "longDesc": "The chief justice of the United States is the chief judge of the Supreme Court of the United States and the highest-ranking officer of the U.S. federal judiciary. Article II, Section 2, Clause 2 of the U.S. Constitution grants plenary power to the president of the United States to nominate, and with the advice and consent of the United States Senate, appoint 'Judges of the supreme Court', who serve until they resign, retire, are impeached and convicted, or die. The existence of a chief justice is explicit in Article One, Section 3, Clause 6 which states that the chief justice shall preside on the impeachment trial of the president.",
+        "branch": "Judicial",
+        "lineOfSuccession": "n/a"
+    },
+    {
+        "pos": "Associate Justice",
+        "id": 1012,
+        "briefDesc": "High-ranking federal judge",
+        "longDesc": "An associate justice of the Supreme Court of the United States is any member of the Supreme Court of the United States other than the chief justice of the United States. The number of associate justices is eight, as set by the Judiciary Act of 1869. Article II, Section 2, Clause 2 of the Constitution of the United States grants plenary power to the president to nominate, and with the advice and consent (confirmation) of the Senate, appoint justices to the Supreme Court. Article III, Section 1 of the Constitution effectively grants life tenure to associate justices, and all other federal judges, which ends only when a justice dies, retires, resigns, or is removed from office by impeachment.",
+        "branch": "Judicial",
+        "lineOfSuccession": "n/a"
+    }
+]

@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87264DF127335720004BEA79 /* PeopleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87264DF027335720004BEA79 /* PeopleRow.swift */; };
+		87264DF3273357EF004BEA79 /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87264DF2273357EF004BEA79 /* PeopleList.swift */; };
+		87264DF727335EA0004BEA79 /* Elections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87264DF627335EA0004BEA79 /* Elections.swift */; };
+		87300058273491E500B40343 /* elections.json in Resources */ = {isa = PBXBuildFile; fileRef = 87300057273491E500B40343 /* elections.json */; };
+		87B99CFD2734BC790092410D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B99CFC2734BC790092410D /* Composition.swift */; };
+		87BFF8B927331E000044D622 /* thegovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8B827331E000044D622 /* thegovApp.swift */; };
+		87BFF8BB27331E000044D622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8BA27331E000044D622 /* ContentView.swift */; };
+		87BFF8BD27331E020044D622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BFF8BC27331E020044D622 /* Assets.xcassets */; };
+		87BFF8C027331E020044D622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BFF8BF27331E020044D622 /* Preview Assets.xcassets */; };
+		87BFF8CA27331E020044D622 /* thegovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8C927331E020044D622 /* thegovTests.swift */; };
+		87BFF8D427331E020044D622 /* thegovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8D327331E020044D622 /* thegovUITests.swift */; };
+		87BFF8D627331E020044D622 /* thegovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8D527331E020044D622 /* thegovUITestsLaunchTests.swift */; };
+		87BFF8E727331F6A0044D622 /* PeopleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8E627331F6A0044D622 /* PeopleDetail.swift */; };
+		87BFF8EE273325010044D622 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8ED273325010044D622 /* ModelData.swift */; };
+		87BFF8F02733258A0044D622 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF8EF2733258A0044D622 /* People.swift */; };
+		87BFF8F2273326180044D622 /* govPeople.json in Resources */ = {isa = PBXBuildFile; fileRef = 87BFF8F1273326170044D622 /* govPeople.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87BFF8C627331E020044D622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BFF8AD27331E000044D622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BFF8B427331E000044D622;
+			remoteInfo = thegov;
+		};
+		87BFF8D027331E020044D622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BFF8AD27331E000044D622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BFF8B427331E000044D622;
+			remoteInfo = thegov;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87264DF027335720004BEA79 /* PeopleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRow.swift; sourceTree = "<group>"; };
+		87264DF2273357EF004BEA79 /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
+		87264DF627335EA0004BEA79 /* Elections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elections.swift; sourceTree = "<group>"; };
+		87300057273491E500B40343 /* elections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elections.json; sourceTree = "<group>"; };
+		87B99CFC2734BC790092410D /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
+		87BFF8B527331E000044D622 /* thegov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thegov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFF8B827331E000044D622 /* thegovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thegovApp.swift; sourceTree = "<group>"; };
+		87BFF8BA27331E000044D622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87BFF8BC27331E020044D622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BFF8BF27331E020044D622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87BFF8C527331E020044D622 /* thegovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thegovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFF8C927331E020044D622 /* thegovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thegovTests.swift; sourceTree = "<group>"; };
+		87BFF8CF27331E020044D622 /* thegovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thegovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFF8D327331E020044D622 /* thegovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thegovUITests.swift; sourceTree = "<group>"; };
+		87BFF8D527331E020044D622 /* thegovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thegovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87BFF8E627331F6A0044D622 /* PeopleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetail.swift; sourceTree = "<group>"; };
+		87BFF8ED273325010044D622 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		87BFF8EF2733258A0044D622 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		87BFF8F1273326170044D622 /* govPeople.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = govPeople.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87BFF8B227331E000044D622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8C227331E020044D622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8CC27331E020044D622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87264DED273356EE004BEA79 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8E627331F6A0044D622 /* PeopleDetail.swift */,
+				87264DF2273357EF004BEA79 /* PeopleList.swift */,
+				87264DF027335720004BEA79 /* PeopleRow.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		87264DF527335E97004BEA79 /* Elections */ = {
+			isa = PBXGroup;
+			children = (
+				87264DF627335EA0004BEA79 /* Elections.swift */,
+			);
+			path = Elections;
+			sourceTree = "<group>";
+		};
+		87B99CFE2734BD0C0092410D /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				87B99CFC2734BC790092410D /* Composition.swift */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		87BFF8AC27331E000044D622 = {
+			isa = PBXGroup;
+			children = (
+				87BFF8B727331E000044D622 /* thegov */,
+				87BFF8C827331E020044D622 /* thegovTests */,
+				87BFF8D227331E020044D622 /* thegovUITests */,
+				87BFF8B627331E000044D622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87BFF8B627331E000044D622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8B527331E000044D622 /* thegov.app */,
+				87BFF8C527331E020044D622 /* thegovTests.xctest */,
+				87BFF8CF27331E020044D622 /* thegovUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87BFF8B727331E000044D622 /* thegov */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8EC273324F30044D622 /* Model */,
+				87BFF8E527331F430044D622 /* Views */,
+				87BFF8B827331E000044D622 /* thegovApp.swift */,
+				87BFF8BA27331E000044D622 /* ContentView.swift */,
+				87BFF8BC27331E020044D622 /* Assets.xcassets */,
+				87BFF8BE27331E020044D622 /* Preview Content */,
+			);
+			path = thegov;
+			sourceTree = "<group>";
+		};
+		87BFF8BE27331E020044D622 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8BF27331E020044D622 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87BFF8C827331E020044D622 /* thegovTests */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8C927331E020044D622 /* thegovTests.swift */,
+			);
+			path = thegovTests;
+			sourceTree = "<group>";
+		};
+		87BFF8D227331E020044D622 /* thegovUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8D327331E020044D622 /* thegovUITests.swift */,
+				87BFF8D527331E020044D622 /* thegovUITestsLaunchTests.swift */,
+			);
+			path = thegovUITests;
+			sourceTree = "<group>";
+		};
+		87BFF8E527331F430044D622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87264DF527335E97004BEA79 /* Elections */,
+				87264DED273356EE004BEA79 /* People */,
+				87B99CFE2734BD0C0092410D /* Composition */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87BFF8EC273324F30044D622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87BFF8ED273325010044D622 /* ModelData.swift */,
+				87300057273491E500B40343 /* elections.json */,
+				87BFF8F1273326170044D622 /* govPeople.json */,
+				87BFF8EF2733258A0044D622 /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87BFF8B427331E000044D622 /* thegov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFF8D927331E020044D622 /* Build configuration list for PBXNativeTarget "thegov" */;
+			buildPhases = (
+				87BFF8B127331E000044D622 /* Sources */,
+				87BFF8B227331E000044D622 /* Frameworks */,
+				87BFF8B327331E000044D622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thegov;
+			productName = thegov;
+			productReference = 87BFF8B527331E000044D622 /* thegov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87BFF8C427331E020044D622 /* thegovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFF8DC27331E020044D622 /* Build configuration list for PBXNativeTarget "thegovTests" */;
+			buildPhases = (
+				87BFF8C127331E020044D622 /* Sources */,
+				87BFF8C227331E020044D622 /* Frameworks */,
+				87BFF8C327331E020044D622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BFF8C727331E020044D622 /* PBXTargetDependency */,
+			);
+			name = thegovTests;
+			productName = thegovTests;
+			productReference = 87BFF8C527331E020044D622 /* thegovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87BFF8CE27331E020044D622 /* thegovUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BFF8DF27331E020044D622 /* Build configuration list for PBXNativeTarget "thegovUITests" */;
+			buildPhases = (
+				87BFF8CB27331E020044D622 /* Sources */,
+				87BFF8CC27331E020044D622 /* Frameworks */,
+				87BFF8CD27331E020044D622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BFF8D127331E020044D622 /* PBXTargetDependency */,
+			);
+			name = thegovUITests;
+			productName = thegovUITests;
+			productReference = 87BFF8CF27331E020044D622 /* thegovUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87BFF8AD27331E000044D622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					87BFF8B427331E000044D622 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					87BFF8C427331E020044D622 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 87BFF8B427331E000044D622;
+					};
+					87BFF8CE27331E020044D622 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 87BFF8B427331E000044D622;
+					};
+				};
+			};
+			buildConfigurationList = 87BFF8B027331E000044D622 /* Build configuration list for PBXProject "thegov" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87BFF8AC27331E000044D622;
+			productRefGroup = 87BFF8B627331E000044D622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BFF8B427331E000044D622 /* thegov */,
+				87BFF8C427331E020044D622 /* thegovTests */,
+				87BFF8CE27331E020044D622 /* thegovUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87BFF8B327331E000044D622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87300058273491E500B40343 /* elections.json in Resources */,
+				87BFF8C027331E020044D622 /* Preview Assets.xcassets in Resources */,
+				87BFF8F2273326180044D622 /* govPeople.json in Resources */,
+				87BFF8BD27331E020044D622 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8C327331E020044D622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8CD27331E020044D622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BFF8B127331E000044D622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87264DF727335EA0004BEA79 /* Elections.swift in Sources */,
+				87BFF8E727331F6A0044D622 /* PeopleDetail.swift in Sources */,
+				87BFF8BB27331E000044D622 /* ContentView.swift in Sources */,
+				87BFF8B927331E000044D622 /* thegovApp.swift in Sources */,
+				87BFF8EE273325010044D622 /* ModelData.swift in Sources */,
+				87BFF8F02733258A0044D622 /* People.swift in Sources */,
+				87B99CFD2734BC790092410D /* Composition.swift in Sources */,
+				87264DF3273357EF004BEA79 /* PeopleList.swift in Sources */,
+				87264DF127335720004BEA79 /* PeopleRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8C127331E020044D622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFF8CA27331E020044D622 /* thegovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BFF8CB27331E020044D622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BFF8D427331E020044D622 /* thegovUITests.swift in Sources */,
+				87BFF8D627331E020044D622 /* thegovUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87BFF8C727331E020044D622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BFF8B427331E000044D622 /* thegov */;
+			targetProxy = 87BFF8C627331E020044D622 /* PBXContainerItemProxy */;
+		};
+		87BFF8D127331E020044D622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BFF8B427331E000044D622 /* thegov */;
+			targetProxy = 87BFF8D027331E020044D622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87BFF8D727331E020044D622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87BFF8D827331E020044D622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BFF8DA27331E020044D622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"thegov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87BFF8DB27331E020044D622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"thegov/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87BFF8DD27331E020044D622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thegov.app/thegov";
+			};
+			name = Debug;
+		};
+		87BFF8DE27331E020044D622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thegov.app/thegov";
+			};
+			name = Release;
+		};
+		87BFF8E027331E020044D622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thegov;
+			};
+			name = Debug;
+		};
+		87BFF8E127331E020044D622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.thegovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thegov;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87BFF8B027331E000044D622 /* Build configuration list for PBXProject "thegov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFF8D727331E020044D622 /* Debug */,
+				87BFF8D827331E020044D622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFF8D927331E020044D622 /* Build configuration list for PBXNativeTarget "thegov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFF8DA27331E020044D622 /* Debug */,
+				87BFF8DB27331E020044D622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFF8DC27331E020044D622 /* Build configuration list for PBXNativeTarget "thegovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFF8DD27331E020044D622 /* Debug */,
+				87BFF8DE27331E020044D622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BFF8DF27331E020044D622 /* Build configuration list for PBXNativeTarget "thegovUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BFF8E027331E020044D622 /* Debug */,
+				87BFF8E127331E020044D622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87BFF8AD27331E000044D622 /* Project object */;
+}
